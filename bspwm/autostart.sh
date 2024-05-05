@@ -1,7 +1,7 @@
 #!/bin/bash
 
 lxsession &
-feh --bg-scale ~/Pictures/wall/minimalistic/sky-cat.png
+feh --bg-scale ~/Pictures/wall/misc/cat-sound.png
 xset r rate 200
 picom --config ~/.config/picom/picom.conf &
 ~/.config/polybar/launch.sh
