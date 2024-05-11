@@ -1,6 +1,6 @@
 return {
   {
-    "hrsh7th/cmp-nvim-lsp"
+    "hrsh7th/cmp-nvim-lsp",
   },
   {
     "L3MON4D3/LuaSnip",
@@ -8,11 +8,25 @@ return {
       "saadparwaiz1/cmp_luasnip",
       "rafamadriz/friendly-snippets",
     },
+    config = function()
+      ls = require("luasnip")
+      ls.snippets = {
+        html = {},
+      }
+      ls.snippets.javascript = ls.snippets.html
+      ls.snippets.javascriptreact = ls.snippets.html
+    end,
   },
   {
     "hrsh7th/nvim-cmp",
     config = function()
       local cmp = require("cmp")
+      local luasnip = require("luasnip")
+
+      luasnip.filetype_extend("javascript", {"html"})
+      luasnip.filetype_extend("javascriptreact", {"html"})
+      luasnip.filetype_extend("typescriptreact", {"html"})
+      require("luasnip/loaders/from_vscode").load({ include = { "html" } })
       require("luasnip.loaders.from_vscode").lazy_load()
 
       cmp.setup({
