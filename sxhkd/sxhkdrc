@@ -28,9 +28,9 @@ super + Escape
 
 # Volume
 F12
-  amixer -D pulse set Master 5%+
+  amixer -D pulse set Master 5%+ && notify-send "Increase Volume 5%"
 F11
-  amixer -D pulse set Master 5%-
+  amixer -D pulse set Master 5%- && notify-send "Decrease Volume 5%"
 
 #
 # bspwm hotkeys
