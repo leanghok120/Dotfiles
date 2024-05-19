@@ -103,11 +103,14 @@ source $ZSH/oh-my-zsh.sh
 # Apps
 export PATH="$HOME/.tmuxifier/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
+export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:$HOME/go/
 eval "$(tmuxifier init -)"
 eval "$(zoxide init --cmd cd zsh)"
 eval "$(fzf --zsh)"
 
 # Helpful aliases
+alias sklauncher="java -jar ~/Downloads/SKlauncher-3.2.8.jar"
 alias  c='clear' # clear terminal
 alias  l='eza -lh  --icons=auto' # long list
 alias ls='eza -1   --icons=auto' # short list
@@ -119,9 +122,12 @@ alias n='nvim'
 alias dev='tmuxifier load-session dev'
 alias config='tmuxifier load-session config'
 alias home='tmuxifier load-session Home'
+alias colemak='setxkbmap us -variant colemak'
 
 #Display Pokemon
 pokemon-colorscripts --no-title -r 1,3,6
+
+~/ideas.sh
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
