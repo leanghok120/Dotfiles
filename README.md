@@ -30,7 +30,7 @@ To set up your environment using these dotfiles, follow the instructions below:
 
 1. **Install required programs**
     ```sh
-    yay -S kitty neovim bspwm dunst zsh polybar thunar rofi sxhkd git curl stow feh picom
+    yay -S kitty neovim bspwm dunst zsh polybar thunar rofi sxhkd git curl stow feh picom fzf ripgrep fd
     ```
 
 2. **Install oh my zsh**
