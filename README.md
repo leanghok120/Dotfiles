@@ -1,6 +1,6 @@
-# Dotfiles for BSPWM Rice
+# Dotfiles for my BSPWM machine
 
-Welcome to my dotfiles repository! This repository contains all the configuration files and scripts needed to set up a customized BSPWM environment. Below, you'll find a brief overview of each component included in the repository, along with instructions on how to set everything up.
+Welcome to my dotfiles repository! This repository contains all the configuration files and scripts I use everyday on my personal machine. Below, you'll find a brief overview of each component included in the repository, along with instructions on how to set everything up.
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -11,7 +11,7 @@ Welcome to my dotfiles repository! This repository contains all the configuratio
 
 ## Introduction
 
-This repository contains my personal configuration files for BSPWM and neovim, aimed at creating an efficient, visually appealing, and highly customizable desktop environment. Whether you are a seasoned BSPWM user or someone looking to try it out for the first time, these dotfiles should help you get a head start.
+This repository contains my personal configuration files for BSPWM, neovim, and tmux aimed at creating an efficient, visually appealing, and highly customizable desktop environment. Whether you are a seasoned BSPWM user or someone looking to try it out for the first time, these dotfiles should help you get a head start.
 
 ## Screenshots
 
