@@ -64,3 +64,6 @@ alias dev='tmuxifier load-session dev'
 eval "$(fzf --zsh)"
 eval "$(tmuxifier init -)"
 eval "$(zoxide init --cmd cd zsh)"
+
+# Startup
+pokemon-colorscripts --no-title -r 1,3,6
