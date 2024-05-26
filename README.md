@@ -33,25 +33,20 @@ To set up your environment using these dotfiles, follow the instructions below:
     yay -S kitty neovim bspwm dunst zsh polybar thunar rofi sxhkd git curl stow feh picom fzf ripgrep fd
     ```
 
-2. **Install oh my zsh**
-    ```sh
-    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-    ```
-
-3. **Clone the Repository:**
+2. **Clone the Repository:**
    ```sh
    git clone https://github.com/leanghok120/Dotfiles.git ~/Dotfiles
    cd ~/Dotfiles
    ```
 
-4. **Create a symlink for all the configs**
+3. **Create a symlink for all the configs**
     ```sh
     stow .
     ```
 
-5. **Change wallpaper in bspwm/autostart.sh**
+4. **Change wallpaper in bspwm/autostart.sh**
 
-6. **Restart your system and load into bspwm**
+5. **Restart your system and load into bspwm**
 
 ## Keybinds
 
