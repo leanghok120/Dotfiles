@@ -1,7 +1,9 @@
 # Path
-PATH="$HOME/.tmuxifier/bin:$PATH"
-PATH="$HOME/.cargo/bin:$PATH"
-PATH=$PATH:/usr/local/go/bin
+export GOROOT="/usr/local/go/"
+export GOPATH="$HOME/go"
+export PATH="$HOME/.tmuxifier/bin:$PATH"
+export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="$PATH:/usr/local/go/bin:$GOPATH/bin"
 
 ### Added by Zinit's installer
 if [[ ! -f $HOME/.local/share/zinit/zinit.git/zinit.zsh ]]; then
