@@ -1,67 +1,36 @@
-# Dotfiles for my BSPWM machine
+# Dotfiles for my machine
 
 Welcome to my dotfiles repository! This repository contains all the configuration files and scripts I use everyday on my personal machine. Below, you'll find a brief overview of each component included in the repository, along with instructions on how to set everything up.
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Screenshots](#screenshots)
-3. [Features](#features)
-4. [Installation](#installation)
-7. [Keybinds](#keybinds)
+2. [Dependencies](#Dependencies)
+3. [Installation](#installation)
+4. [Keybinds](#keybinds)
 
 ## Introduction
 
-This repository contains my personal configuration files for BSPWM, neovim, and tmux aimed at creating an efficient, visually appealing, and highly customizable desktop environment. Whether you are a seasoned BSPWM user or someone looking to try it out for the first time, these dotfiles should help you get a head start.
+This repository contains my personal config files for i3, neovim, and tmux aimed at creating an efficient and **blazingly** fast desktop environment.
 
-## Screenshots
+## Dependencies
 
-![](./2024-05-20_11-55.png)
-
-## Features
-
-- Efficient and ergonomic keybindings
-- Aesthetic color schemes and fonts
-- Lightweight and fast setup
-- Designed for Developers
+- i3 (tiling windows manager)
+- Neovim
+- Tmux
+- Zsh
+- Kitty
+- Picom
+- Nitrogen
 
 ## Installation
 
-To set up your environment using these dotfiles, follow the instructions below:
-
-1. **Install required programs**
-    ```sh
-    yay -S kitty neovim bspwm dunst zsh polybar thunar rofi sxhkd git curl stow feh picom fzf ripgrep fd
-    ```
-
-2. **Clone the Repository:**
-   ```sh
-   git clone https://github.com/leanghok120/Dotfiles.git ~/Dotfiles
-   cd ~/Dotfiles
-   ```
-
-3. **Create a symlink for all the configs**
-    ```sh
-    stow .
-    ```
-
-4. **Change wallpaper in bspwm/autostart.sh**
-
-5. **Restart your system and load into bspwm**
+```sh
+    sudo dnf install i3 neovim tmux zsh kitty nitrogen fzf zoxide ripgrep fd-find picom xset
+```
 
 ## Keybinds
 
-- Terminal: Super(windows) + Enter
-- Firefox: Super + b
+- Terminal: Super(windows key) + Enter
+- Browser: Super + b
 - Launcher: Super + Space
-- File: Super + t
-- Close window: Super + q
-- Focus windows: Super + h, j, k, l
-- Switch workspaces: Super + 1-5
-- Move windows to workspace: Super + shift + 1-5
-- Resize windows: Super + alt + l, h
-- Screenshot: Super + p
-- Volume Up: F12
-- Volume Down: F11
-- Quit bspwm: Super + alt + q
-- Restart bspwm: Super + alt + r
-- Check out the sxhkdrc file for more
+- Go to i3 config for more keybinds
