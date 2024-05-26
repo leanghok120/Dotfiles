@@ -1,6 +1,7 @@
 set $mod Mod4
 set $terminal kitty
 set $browser firefox
+set $launcher rofi -show drun
 
 font pango:monospace 8
 
@@ -27,7 +28,7 @@ tiling_drag modifier titlebar
 bindsym $mod+Return exec $terminal
 bindsym $mod+b exec $browser
 bindsym $mod+q kill
-bindsym $mod+space exec --no-startup-id dmenu_run
+bindsym $mod+space exec --no-startup-id $launcher
 
 # change focus
 bindsym $mod+h focus left
