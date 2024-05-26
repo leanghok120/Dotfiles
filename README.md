@@ -10,7 +10,7 @@ Welcome to my dotfiles repository! This repository contains all the config files
 
 ## Introduction
 
-This repository contains my personal config files for i3, neovim, and tmux aimed at creating an efficient and **blazingly** fast desktop environment.
+This repository contains my personal config files for i3, neovim, and tmux aimed at creating an efficient, basic and **blazingly fast** desktop experience.
 
 ## Dependencies
 
