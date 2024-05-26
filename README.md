@@ -1,6 +1,6 @@
 # Dotfiles for my machine
 
-Welcome to my dotfiles repository! This repository contains all the configuration files and scripts I use everyday on my personal machine. Below, you'll find a brief overview of each component included in the repository, along with instructions on how to set everything up.
+Welcome to my dotfiles repository! This repository contains all the config files I use everyday on my machine for studying and development.
 
 ## Table of Contents
 1. [Introduction](#introduction)
