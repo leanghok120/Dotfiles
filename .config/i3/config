@@ -95,4 +95,4 @@ bar {
         status_command i3status
 }
 
-exec_always ./autostart.sh
+exec_always ~/.config/i3/autostart.sh

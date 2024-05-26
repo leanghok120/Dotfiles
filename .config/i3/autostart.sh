@@ -1,5 +1,5 @@
 #!/bin/bash
 
 lxsession &
-nitrogen --restore &
+nitrogen --restore
 xset r rate 200
