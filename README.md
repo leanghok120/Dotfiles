@@ -26,7 +26,7 @@ This repository contains my personal config files for i3, neovim, and tmux aimed
 ## Installation
 
 ```sh
-    sudo dnf install i3 neovim tmux zsh kitty nitrogen fzf zoxide ripgrep fd-find picom xset rofi
+    sudo dnf install i3 neovim tmux zsh kitty nitrogen fzf zoxide ripgrep fd-find picom xset rofi polybar
 ```
 
 ## Keybinds
