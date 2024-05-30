@@ -1,9 +1,9 @@
 set $mod Mod4
-set $terminal kitty
+set $terminal alacritty
 set $browser firefox
 set $launcher rofi -show drun
 
-font pango:CascadiaCode 12
+font pango:JetBrainsMono Nerd Font 12
 
 exec --no-startup-id dex-autostart --autostart --environment i3
 
