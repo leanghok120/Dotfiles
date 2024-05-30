@@ -3,7 +3,7 @@ set $terminal kitty
 set $browser firefox
 set $launcher rofi -show drun
 
-font pango:monospace 8
+font pango:CascadiaCode 12
 
 exec --no-startup-id dex-autostart --autostart --environment i3
 
