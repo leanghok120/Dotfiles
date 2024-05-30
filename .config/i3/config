@@ -31,6 +31,8 @@ bindsym $mod+q kill
 bindsym $mod+space exec --no-startup-id $launcher
 bindsym $mod+c  exec ~/Dotfiles/.local/bin/start_dev_firefox.sh
 
+bindsym $mod+p exec flameshot gui
+
 # change focus
 bindsym $mod+h focus left
 bindsym $mod+j focus down
