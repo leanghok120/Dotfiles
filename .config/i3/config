@@ -29,6 +29,7 @@ bindsym $mod+Return exec $terminal
 bindsym $mod+b exec $browser
 bindsym $mod+q kill
 bindsym $mod+space exec --no-startup-id $launcher
+bindsym $mod+c  exec ~/Dotfiles/.local/bin/startup.sh
 
 # change focus
 bindsym $mod+h focus left
