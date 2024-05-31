@@ -79,3 +79,4 @@ alias cd=z
 # Shell intergrations
 eval "$(zoxide init zsh)"
 eval "$(tmuxifier init -)"
+source /usr/share/fzf/shell/key-bindings.zsh
