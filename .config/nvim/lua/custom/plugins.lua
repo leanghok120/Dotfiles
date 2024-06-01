@@ -33,6 +33,13 @@ local plugins = {
       require "custom.configs.nvim-lint"
     end,
   },
+  {
+    "andweeb/presence.nvim",
+    lazy = false,
+    config = function()
+      require "custom.configs.presence"
+    end,
+  },
 }
 
 return plugins
