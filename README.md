@@ -26,7 +26,7 @@ This repository contains my personal config files for i3, neovim, and tmux aimed
 ## Installation
 
 ```sh
-    sudo pacman -S i3-wm neovim tmux zsh alacritty nitrogen fzf zoxide ripgrep fd picom rofi polybar xclip xorg
+    sudo pacman -S i3-wm neovim tmux zsh alacritty nitrogen fzf zoxide ripgrep fd picom rofi polybar xclip xorg eza
 ```
 
 ## Keybinds
