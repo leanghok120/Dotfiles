@@ -73,7 +73,7 @@ alias ls='eza -1   --icons=auto' # short list
 alias ll='eza -lha --icons=auto --sort=name --group-directories-first' # long list all
 alias ld='eza -lhD --icons=auto' # long list dirs
 alias n='nvim'
-alias dev='tmuxifier load-session dev'
+# alias dev='tmuxifier load-session dev'
 alias cd=z
 
 # Shell intergrations
