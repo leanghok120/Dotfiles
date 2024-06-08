@@ -2,6 +2,6 @@
 
 nitrogen --restore
 xset r rate 200
-picom
+picom &
 killall polybar
 ~/.config/polybar/launch_polybar.sh
