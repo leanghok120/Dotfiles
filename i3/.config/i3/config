@@ -13,6 +13,8 @@ exec --no-startup-id nm-applet
 
 exec --no-startup-id /usr/libexec/gsd-xsettings
 
+exec_always ~/.config/i3/autostart.sh
+
 set $refresh_i3status killall -SIGUSR1 i3status
 bindsym F12 exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
 bindsym F11 exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
@@ -93,8 +95,6 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
-
-exec_always ~/.config/i3/autostart.sh
 
 set $rosewater #f5e0dc
 set $flamingo  #f2cdcd
