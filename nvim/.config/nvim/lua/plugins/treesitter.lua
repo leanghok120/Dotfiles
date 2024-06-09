@@ -5,9 +5,9 @@ return {
     local config = require "nvim-treesitter.configs"
 
     config.setup {
-      ensure_installed = { "lua", "bash", "vim", "go" },
+      ensure_installed = { "lua", "bash", "vimdoc", "go" },
       auto_install = true,
-      hightlight = {
+      highlight = {
         enable = true,
       },
 
