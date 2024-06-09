@@ -4,6 +4,7 @@ export GOPATH="$HOME/go"
 export PATH="$HOME/.tmuxifier/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$PATH:/usr/local/go/bin:$GOPATH/bin"
+export PATH="$HOME/.local/scripts:$PATH"
 
 ### Added by Zinit's installer
 if [[ ! -f $HOME/.local/share/zinit/zinit.git/zinit.zsh ]]; then
@@ -49,6 +50,7 @@ zinit cdreplay -q
 bindkey -e
 bindkey "^p" history-search-backward
 bindkey "^n" history-search-forward
+bindkey -s "^f" 'tsesh^m'
 
 # History
 HISTSIZE=3000
