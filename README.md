@@ -22,11 +22,12 @@ This repository contains my personal config files for i3, neovim, and tmux aimed
 - Picom
 - Nitrogen
 - Rofi
+- Dunst
 
 ## Installation
 
 ```sh
-    sudo pacman -S i3-wm neovim tmux zsh alacritty nitrogen fzf zoxide ripgrep fd picom rofi polybar xclip xorg eza
+    sudo pacman -S i3-wm neovim tmux zsh alacritty nitrogen fzf zoxide ripgrep fd picom rofi polybar xclip xorg eza dunst
 ```
 
 ## Keybinds
