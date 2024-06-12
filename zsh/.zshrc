@@ -3,7 +3,7 @@ export GOROOT="/usr/local/go/"
 export GOPATH="$HOME/go"
 export PATH="$HOME/.tmuxifier/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
-export PATH="$PATH:/usr/local/go/bin:$GOPATH/bin"
+export PATH="$PATH:$GOROOT/bin:$GOPATH/bin"
 export PATH="$HOME/.local/scripts:$PATH"
 
 ### Added by Zinit's installer
