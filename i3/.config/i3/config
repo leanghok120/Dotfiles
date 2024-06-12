@@ -123,6 +123,14 @@ set $base      #1e1e2e
 set $mantle    #181825
 set $crust     #11111b
 
+# Gaps
+gaps inner 5
+gaps outer 5
+
+# Border
+default_border pixel 4
+default_floating_border pixel 4
+
 # target                 title     bg    text      indicator    border
 client.focused           $mantle   $mauve $mantle  $rosewater $mauve
 client.focused_inactive  $overlay0 $base  $text    $rosewater $overlay0
