@@ -99,7 +99,7 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 set $rosewater #f5e0dc
 set $flamingo  #f2cdcd
 set $pink      #f5c2e7
-set $mauve     #cba6f7
+set $mauve     #ffffff
 set $red       #f38ba8
 set $maroon    #eba0ac
 set $peach     #fab387

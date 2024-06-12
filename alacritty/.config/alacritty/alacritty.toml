@@ -25,5 +25,5 @@ family = "CaskaydiaCove Nerd Font"
 style = "Regular"
 
 [window]
-padding.x = 30
-padding.y = 30
+# padding.x = 30
+# padding.y = 30
