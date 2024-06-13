@@ -5,13 +5,28 @@ vim.opt.shiftwidth = 2
 
 vim.opt.cursorline = true
 
+vim.opt.wrap = false
+
+vim.opt.swapfile = false
+vim.opt.backup = false
+vim.opt.undodir = os.getenv "HOME" .. "/.vim/undodir"
+vim.opt.undofile = true
+
 vim.opt.clipboard = "unnamedplus"
 
 vim.opt.number = true
 vim.opt.relativenumber = true
 
-vim.opt.scrolloff = 8
+vim.opt.scrolloff = 10
 
 vim.opt.updatetime = 50
 
 vim.opt.termguicolors = true
+
+vim.api.nvim_create_autocmd("TextYankPost", {
+  desc = "Highlight when yanking (copying) text",
+  group = vim.api.nvim_create_augroup("highlight-yank", { clear = true }),
+  callback = function()
+    vim.highlight.on_yank()
+  end,
+})
