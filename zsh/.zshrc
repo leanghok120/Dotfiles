@@ -31,7 +31,10 @@ zinit light-mode for \
 
 # Plugins
 # Prompt
-zinit light metaory/zsh-roundy-prompt
+fpath+="$HOME/.zsh/zen"
+autoload -Uz promptinit
+promptinit
+prompt zen
 
 # Essentials
 zinit light zsh-users/zsh-syntax-highlighting
