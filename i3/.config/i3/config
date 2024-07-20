@@ -1,6 +1,6 @@
-set $mod Mod4
+set $mod Mod1
 set $terminal alacritty
-set $browser firefox
+set $browser brave
 set $launcher rofi -show drun
 
 font pango:JetBrainsMono Nerd Font 12
@@ -28,6 +28,7 @@ tiling_drag modifier titlebar
 # Keybinds
 
 bindsym $mod+Return exec $terminal
+bindsym $mod+g exec gofi
 bindsym $mod+b exec $browser
 bindsym $mod+q kill
 bindsym $mod+space exec --no-startup-id $launcher
@@ -125,8 +126,8 @@ set $mantle    #181825
 set $crust     #11111b
 
 # Gaps
-gaps inner 5
-gaps outer 5
+gaps inner 20
+gaps outer 20
 
 # Border
 default_border pixel 4

@@ -87,3 +87,4 @@ source <(fzf --zsh)
 # export NVM_DIR="$HOME/.nvm"
 # [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 # [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+export PATH=/home/leanghok/.local/bin:/home/leanghok/.local/scripts:/home/leanghok/.cargo/bin:/home/leanghok/.tmuxifier/bin:/home/leanghok/.local/share/zinit/polaris/bin:/home/leanghok/.local/scripts:/home/leanghok/.cargo/bin:/home/leanghok/.tmuxifier/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/var/lib/flatpak/exports/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/local/go//bin:/home/leanghok/go/bin:/usr/local/go//bin:/home/leanghok/go/bin
