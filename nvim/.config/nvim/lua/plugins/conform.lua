@@ -6,6 +6,8 @@ return {
         lua = { "stylua" },
         python = { "isort", "black" },
         javascript = { { "prettierd", "prettier" } },
+        html = { { "prettierd", "prettier" } },
+        css = { { "prettierd", "prettier" } },
         go = { "gofumpt", "goimports" },
       },
       vim.api.nvim_create_autocmd("BufWritePre", {
