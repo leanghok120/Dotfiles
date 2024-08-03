@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-
-sesh connect \"$(
-        sesh list -i | gum filter --limit 1 --placeholder 'Pick a sesh' --height 50 --prompt='⚡'
-)\"
