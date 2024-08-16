@@ -5,6 +5,7 @@ export PATH="$HOME/.tmuxifier/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$PATH:$GOROOT/bin:$GOPATH/bin"
 export PATH="$HOME/.local/scripts:$PATH"
+export EDITOR='nvim'
 
 ### Added by Zinit's installer
 if [[ ! -f $HOME/.local/share/zinit/zinit.git/zinit.zsh ]]; then
