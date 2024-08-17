@@ -1,8 +1,0 @@
-(defsrc
-  caps)
-
-(defalias
-  tpfx (multi lctl spc))
-
-(deflayer default
-  @tpfx)

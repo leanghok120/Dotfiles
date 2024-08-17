@@ -83,7 +83,6 @@ alias cd=z
 
 # Shell intergrations
 eval "$(zoxide init zsh)"
-source <(fzf --zsh)
 
 # export NVM_DIR="$HOME/.nvm"
 # [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
