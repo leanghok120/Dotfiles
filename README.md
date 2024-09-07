@@ -1,17 +1,12 @@
 # Dotfiles for my machine
 
-Welcome to my dotfiles repository! This repository contains all the config files I use everyday on my machine for studying and development.
+Welcome to my dotfiles repository! This repository contains all the config files I use everyday on my machine for studying and programming.
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
-2. [Dependencies](#Dependencies)
-3. [Installation](#installation)
-4. [Keybinds](#keybinds)
-
-## Introduction
-
-This repository contains my personal config files for hyprland, neovim, and tmux aimed at creating an efficient, basic and **blazingly fast** desktop experience.
+1. [Dependencies](#Dependencies)
+2. [Installation](#installation)
+3. [Keybinds](#keybinds)
 
 ## Dependencies
 
