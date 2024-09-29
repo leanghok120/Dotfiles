@@ -1,3 +1,5 @@
+[[ -s "/home/leanghok/.gvm/scripts/gvm" ]] && source "/home/leanghok/.gvm/scripts/gvm"
+
 # Path
 export GOROOT="/usr/local/go/"
 export GOPATH="$HOME/go"
