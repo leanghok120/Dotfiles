@@ -8,4 +8,5 @@ if status is-interactive
   export PATH="$PATH:$GOROOT/bin:$GOPATH/bin"
   export PATH="$HOME/.local/scripts:$PATH"
   export EDITOR='nvim'
+  export MANPAGER="nvim +Man!"
 end
