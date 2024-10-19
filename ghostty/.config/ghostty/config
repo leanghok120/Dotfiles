@@ -1,0 +1,15 @@
+background = #1d2021
+
+keybind = ctrl+z=close_surface
+keybind = ctrl+d=new_split:right
+
+font-family = CaskaydiaCove Nerd Font Mono
+font-size = 16
+
+theme = GruvboxDarkHard
+
+cursor-style = block
+
+window-padding-x = 20
+window-padding-y = 20
+window-decoration = false
