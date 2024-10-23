@@ -1,8 +1,5 @@
 background = #1d2021
 
-keybind = ctrl+z=close_surface
-keybind = ctrl+d=new_split:right
-
 font-family = CaskaydiaMono Nerd Font
 font-size = 16
 
