@@ -13,8 +13,8 @@ Welcome to my dotfiles repository! This repository contains all the config files
 - Hyprland (tiling windows manager)
 - Neovim
 - Tmux
-- Zsh
-- Alacritty
+- Fish
+- Ghostty
 - Rofi
 - Swaync
 - Swww
@@ -22,7 +22,7 @@ Welcome to my dotfiles repository! This repository contains all the config files
 ## Installation
 
 ```sh
-    yay -S hyprland neovim tmux zsh alacritty swww fzf zoxide ripgrep fd rofi waybar eza swaync
+    yay -S hyprland neovim tmux fish ghostty-git swww fzf zoxide ripgrep fd rofi waybar eza swaync
 ```
 
 ## Keybinds
