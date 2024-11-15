@@ -1,12 +1,14 @@
 return {
   {
     "williamboman/mason.nvim",
+    event = { "BufReadPost", "BufNewFile" },
     config = function()
       require("mason").setup()
     end,
   },
   {
     "williamboman/mason-lspconfig.nvim",
+    event = { "BufReadPost", "BufNewFile" },
     config = function()
       require("mason-lspconfig").setup {
         ensure_installed = { "lua_ls", "gopls", "ts_ls", "clangd", "pyright" },
@@ -15,6 +17,7 @@ return {
   },
   {
     "neovim/nvim-lspconfig",
+    event = { "BufReadPost", "BufNewFile" },
     config = function()
       local lspconfig = require "lspconfig"
       local capabilities = require("cmp_nvim_lsp").default_capabilities()

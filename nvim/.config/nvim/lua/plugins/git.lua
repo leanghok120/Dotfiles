@@ -1,6 +1,7 @@
 return {
   {
     "lewis6991/gitsigns.nvim",
+    event = { "BufReadPost", "BufNewFile" },
     config = function()
       require("gitsigns").setup()
 
@@ -8,12 +9,23 @@ return {
     end,
   },
   {
-    "tpope/vim-fugitive",
-    config = function()
-      vim.keymap.set("n", "<leader>gs", vim.cmd.Git)
-      vim.keymap.set("n", "<leader>ga", "<cmd>Git add .<CR>")
-      vim.keymap.set("n", "<leader>gp", "<cmd>Git push<CR>")
-      vim.keymap.set("n", "<leader>gc", "<cmd>Git commit<CR>")
-    end,
-  },
+    "kdheepak/lazygit.nvim",
+    lazy = true,
+    cmd = {
+      "LazyGit",
+      "LazyGitConfig",
+      "LazyGitCurrentFile",
+      "LazyGitFilter",
+      "LazyGitFilterCurrentFile",
+    },
+
+    dependencies = {
+      "nvim-lua/plenary.nvim",
+    },
+
+    keys = {
+      { "<leader>lg", "<cmd>LazyGit<cr>", desc = "LazyGit" }
+    }
+
+  }
 }

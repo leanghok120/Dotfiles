@@ -1,19 +1,23 @@
 return {
   {
     "hrsh7th/cmp-nvim-lsp",
+    event = { "BufReadPost", "BufNewFile" },
   },
   {
     "hrsh7th/cmp-path",
+    event = { "BufReadPost", "BufNewFile" },
   },
   {
     "L3MON4D3/LuaSnip",
+    event = { "BufReadPost", "BufNewFile" },
     dependencies = {
-      "saadparwaiz1/cmp_luasnip",
-      "rafamadriz/friendly-snippets",
+      { "saadparwaiz1/cmp_luasnip",     event = { "BufReadPost", "BufNewFile" } },
+      { "rafamadriz/friendly-snippets", event = { "BufReadPost", "BufNewFile" } },
     },
   },
   {
     "hrsh7th/nvim-cmp",
+    event = { "BufReadPost", "BufNewFile" },
     config = function()
       local cmp = require "cmp"
       require("luasnip.loaders.from_vscode").lazy_load()
