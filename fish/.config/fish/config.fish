@@ -10,3 +10,10 @@ if status is-interactive
   export EDITOR='nvim'
   export MANPAGER="nvim +Man!"
 end
+
+# pnpm
+set -gx PNPM_HOME "/home/leanghok/.local/share/pnpm"
+if not string match -q -- $PNPM_HOME $PATH
+  set -gx PATH "$PNPM_HOME" $PATH
+end
+# pnpm end

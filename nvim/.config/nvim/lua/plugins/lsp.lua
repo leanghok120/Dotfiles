@@ -11,7 +11,7 @@ return {
     event = { "BufReadPost", "BufNewFile" },
     config = function()
       require("mason-lspconfig").setup {
-        ensure_installed = { "lua_ls", "gopls", "ts_ls", "clangd", "pyright" },
+        ensure_installed = { "lua_ls", "gopls", "ts_ls", "clangd", "pyright", "tailwindcss", "astro", "svelte" },
       }
     end,
   },
@@ -20,28 +20,16 @@ return {
     event = { "BufReadPost", "BufNewFile" },
     config = function()
       local lspconfig = require "lspconfig"
+      local mason_lspconfig = require "mason-lspconfig"
       local capabilities = require("cmp_nvim_lsp").default_capabilities()
 
-      lspconfig.lua_ls.setup {
-        capabilities = capabilities,
-      }
-      lspconfig.gopls.setup {
-        capabilities = capabilities,
-      }
-      lspconfig.ts_ls.setup {
-        capabilities = capabilities,
-      }
-      lspconfig.clangd.setup {
-        capabilities = capabilities,
-      }
-      lspconfig.pyright.setup {
-        capabilities = capabilities,
-      }
-      lspconfig.tailwindcss.setup {
-        capabilities = capabilities,
-      }
-      lspconfig.astro.setup {
-        capabilities = capabilities,
+      -- Set up each installed server dynamically
+      mason_lspconfig.setup_handlers {
+        function(server_name)
+          lspconfig[server_name].setup {
+            capabilities = capabilities,
+          }
+        end,
       }
 
       vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
