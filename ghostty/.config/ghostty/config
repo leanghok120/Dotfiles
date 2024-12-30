@@ -1,7 +1,7 @@
-font-family = DepartureMono Nerd Font
+font-family = CaskaydiaMono Nerd Font
 font-size = 15
 
-theme = GruvboxDark
+theme = catppuccin-frappe
 
 cursor-style = block
 
